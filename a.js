@@ -34,3 +34,13 @@ var app7 = new Vue({
         ]
     }
 })
+
+var app8 = new Vue({
+    el: "#app8",
+    data: {
+        message:'app8自动执行'
+    },
+    created:function() {
+        alert(this.message)
+    }
+})
